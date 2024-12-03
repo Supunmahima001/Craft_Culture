@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/pot.jpg");
+    background-size: cover;
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  div h5 {
+    text-align: center;
+    color: black;
+  }
+  .content {
+    height: auto;
+    width: 70%;
+    justify-self: center;
+    margin-top: 8rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
+  .form-label {
+    color: black;
+    font-weight: bold;
+  }
+  .card {
+    height: 40px;
+  }
+  
