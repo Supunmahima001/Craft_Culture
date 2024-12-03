@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url("../images/background.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: whites;
+    font-family: cursive;
+    border-color: black;
+    margin-bottom: 50px;
+    text-shadow: 4px 4px black;
+  }
+  
+  .hero p {
+    font-size: 2.5rem;
+    color: black;
+    font-style: italic;
+    text-shadow: 2px 2px white;
+  }
+  
+  .hero .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+  
+  #products .card {
+    border: none;
+  }
+  
+  #products .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
