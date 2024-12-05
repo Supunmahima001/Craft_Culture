@@ -26,24 +26,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link active" aria-current="page" href="index.php"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link" href="shop.php">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
 
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="signin.html"
+                href="signin.php"
                 style="margin-left: 4em; font-weight: bold"
                 >Sign in</a
               >
@@ -51,7 +51,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="signup.html"
+                href="signup.php"
                 style="
                   border: 1px solid;
                   width: auto;
