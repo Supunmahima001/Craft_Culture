@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <!-- Navbar -->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#"><i>Craft Culture</i></a>
@@ -29,24 +29,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link active" aria-current="page" href="index.php"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link" href="shop.php">Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
 
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="signin.html"
+                href="signin.php"
                 style="margin-left: 4em; font-weight: bold"
                 >Sign in</a
               >
@@ -54,7 +54,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="signup.html"
+                href="signup.php"
                 style="
                   border: 1px solid;
                   width: auto;
@@ -68,15 +68,15 @@
         </div>
       </div>
     </nav>
-    <!-- Header Section -->
+    
     <header>
       <h1>Handmade Craft Shop</h1>
       <p>Unique, handcrafted items from talented artisans.</p>
     </header>
 
-    <!-- Shop Page Container -->
+    
     <div class="shop-container">
-      <!-- Product Card 1 -->
+      
       <div class="product-card">
         <img
           src="../images/dancer.jpg"
@@ -91,7 +91,7 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 2 -->
+     
       <div class="product-card">
         <img src="../images/handbag.jpg" alt="Hand made hand bag " />
         <h3>Hand made Handbag</h3>
@@ -102,7 +102,7 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 3 -->
+      
       <div class="product-card">
         <img src="../images/wineglass.jpg" alt="Coconat wineglass" />
         <h3>Coconat Wine glass</h3>
@@ -112,7 +112,7 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 4 -->
+      
       <div class="product-card">
         <img src="../images/mask.jpg" alt="Wooden Mask" />
         <h3>wooden Mask</h3>
@@ -131,7 +131,7 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 2 -->
+      
       <div class="product-card">
         <img src="../images/flowerpot.jpg" alt="Hand made flowerpot" />
         <h3>Hand made Flowerpot</h3>
@@ -141,7 +141,7 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 3 -->
+      
       <div class="product-card">
         <img src="../images/clock.jpg" alt="Hand made Cloack" />
         <h3>Hand made Wooden clock</h3>
@@ -151,7 +151,6 @@
         <button>Add to Cart</button>
       </div>
 
-      <!-- Product Card 4 -->
       <div class="product-card">
         <img src="../images/pot.jpg" alt="srilankan handmade Pottery" />
         <h3>Hand made Pottery</h3>
@@ -161,9 +160,9 @@
         <button>Add to Cart</button>
       </div>
     </div>
-    <!-- End of Shop Container -->
+  
 
-    <!-- Footer Section -->
+    
     <footer>
       <p>&copy; 2024 Handmade Craft Shop</p>
     </footer>
