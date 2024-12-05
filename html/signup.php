@@ -19,7 +19,7 @@
       <h4 style="color: black">Create an Account</h4>
 
       <form action="/submit-signup" method="POST">
-        <!-- Name input -->
+        
         <div class="input-group">
           <label for="name">Full Name</label>
           <input
@@ -31,7 +31,7 @@
           />
         </div>
 
-        <!-- Email input -->
+        
         <div class="input-group">
           <label for="email">Email Address</label>
           <input
@@ -43,7 +43,7 @@
           />
         </div>
 
-        <!-- Password input -->
+        
         <div class="input-group">
           <label for="password">Password</label>
           <input
@@ -67,15 +67,15 @@
           />
         </div>
 
-        <!-- Sign Up Button -->
+        
         <div class="input-group">
           <input type="submit" value="Sign Up" />
         </div>
       </form>
 
-      <!-- Sign In Link -->
+      
       <div class="signin-link">
-        Already have an account? <a href="signin.html">Sign in here</a>
+        Already have an account? <a href="signin.php">Sign in here</a>
       </div>
     </div>
   </body>
