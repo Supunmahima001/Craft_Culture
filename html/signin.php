@@ -32,7 +32,7 @@
           />
         </div>
 
-        <!-- Password input -->
+        
         <div class="input-group">
           <label for="password">Password</label>
           <input
@@ -44,20 +44,20 @@
           />
         </div>
 
-        <!-- Sign In Button -->
+        
         <div class="input-group">
           <input type="submit" value="Sign In" />
         </div>
 
-        <!-- Forgot Password Link -->
+        
         <div class="forgot-password">
           <a href="#">Forgot Password?</a>
         </div>
       </form>
 
-      <!-- Sign Up Link -->
+      
       <div class="signup-link">
-        Don't have an account? <a href="signup.html">Sign up here</a>
+        Don't have an account? <a href="signup.php">Sign up here</a>
       </div>
     </div>
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
