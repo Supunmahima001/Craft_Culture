@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="../#"><i>Craft Culture</i></a>
