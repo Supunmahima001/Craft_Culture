@@ -1,3 +1,60 @@
+<?php
+require_once 'conf.php';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Get the form data
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $confirmPassword = $_POST['confirm-password'];
+
+    // Validate form inputs
+    if (empty($name) || empty($email) || empty($password) || empty($confirmPassword)) {
+        echo "<script>alert('All fields are required!');</script>";
+        exit;
+    }
+
+    if ($password !== $confirmPassword) {
+        echo "<script>alert('Passwords do not match!');</script>";
+        exit;
+    }
+
+    // Check if the email already exists
+    $emailQuery = "SELECT * FROM Users WHERE Email = ?";
+    $stmt = $conn->prepare($emailQuery);
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    if ($result->num_rows > 0) {
+        echo "<script>alert('Email is already registered.');</script>";
+        exit;
+    }
+
+    // Hash the password
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+    // Insert data into the Users table
+    $role = 'Buyer'; // Default role for a new user, can be changed as needed
+    $sql = "INSERT INTO Users (Username, Email, Password, Role) VALUES (?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ssss", $name, $email, $hashedPassword, $role);
+    
+    if ($stmt->execute()) {
+        // Show success message as an alert using JavaScript
+        echo "<script>alert('Registration successful! You can now log in.'); window.location.href='signin.php';</script>";
+    } else {
+        echo "<script>alert('Error: " . $stmt->error . "');</script>";
+    }
+
+    // Close the connection
+    $stmt->close();
+    $conn->close();
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +75,7 @@
     >
       <h4 style="color: black">Create an Account</h4>
 
-      <form action="/submit-signup" method="POST">
+      <form action="signup.php" method="POST">
         
         <div class="input-group">
           <label for="name">Full Name</label>
