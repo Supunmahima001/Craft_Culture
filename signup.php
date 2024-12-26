@@ -2,13 +2,13 @@
 require_once 'conf.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Get the form data
+    
     $name = $_POST['name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
     $confirmPassword = $_POST['confirm-password'];
 
-    // Validate form inputs
+    
     if (empty($name) || empty($email) || empty($password) || empty($confirmPassword)) {
         echo "<script>alert('All fields are required!');</script>";
         exit;
@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    // Check if the email already exists
+    
     $emailQuery = "SELECT * FROM Users WHERE Email = ?";
     $stmt = $conn->prepare($emailQuery);
     $stmt->bind_param("s", $email);
@@ -31,23 +31,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    // Hash the password
+    
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-    // Insert data into the Users table
-    $role = 'Buyer'; // Default role for a new user, can be changed as needed
+    
+    $role = 'Buyer';
     $sql = "INSERT INTO Users (Username, Email, Password, Role) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssss", $name, $email, $hashedPassword, $role);
     
     if ($stmt->execute()) {
-        // Show success message as an alert using JavaScript
+        
         echo "<script>alert('Registration successful! You can now log in.'); window.location.href='signin.php';</script>";
     } else {
         echo "<script>alert('Error: " . $stmt->error . "');</script>";
     }
 
-    // Close the connection
+    
     $stmt->close();
     $conn->close();
 }
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up - [Your Shop Name]</title>
     <link rel="stylesheet" href="../css/styles.css" />
-    <!-- Link to external stylesheet -->
+    
     <link rel="stylesheet" href="../css/signup.css" />
     <link
       href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"
@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           />
         </div>
 
-        <!-- Confirm Password input -->
+        
         <div class="input-group">
           <label for="confirm-password">Confirm Password</label>
           <input
