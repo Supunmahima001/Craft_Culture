@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <!-- Navigation bar -->
+  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="../#"><i>Craft Culture</i></a>
@@ -69,7 +69,7 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
+    
     <section
       class="hero text-center text-white d-flex justify-content-center align-items-center"
     >
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <!-- Products Section -->
+    
     <section id="products" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">
@@ -121,7 +121,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+   
     <footer class="bg-dark text-white py-4">
       <div class="container text-center">
         <p>&copy; 2024 Craft Culture. All Rights Reserved.</p>
