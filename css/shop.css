@@ -12,7 +12,7 @@
   
   /* Header Section */
   header {
-    background-color: #a6805a;
+    background-color: #C3BBD8;
     color: white;
     text-align: center;
     padding: 20px;
@@ -67,7 +67,7 @@
   }
   
   .product-card button {
-    background-color: burlywood;
+    background-color: #C3BBD8;
     color: white;
     border: none;
     padding: 10px;
@@ -91,7 +91,7 @@
   footer {
     text-align: center;
     padding: 10px;
-    background-color: #a6805a;
+    background-color: #C3BBD8;
     color: white;
   }
   
