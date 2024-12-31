@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 .about-us {
-    background-color: white;
+    background-image: url(../images/vase.jpg);
     padding: 30px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
