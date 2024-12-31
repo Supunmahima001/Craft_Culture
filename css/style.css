@@ -4,6 +4,7 @@ body {
   
   .hero {
     background: url("../images/background.jpg") no-repeat center center/cover;
+    
     height: 100vh;
     position: relative;
   }
