@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Craft Culture</title>
-    <link rel="stylesheet" href="../css/aboutus.css"> <!-- Assuming you have a style.css for styling -->
+    <link rel="stylesheet" href="../css/about.css"> <!-- Assuming you have a style.css for styling -->
 </head>
 <body>
     <!-- Navigation Bar -->
