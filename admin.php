@@ -9,16 +9,7 @@
 <body>
     <header>
         <h1>Admin Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="shop.php">Shop</a></li>
-                <li><a href="aboutus.php">About Us</a></li>
-                <li><a href="signin.php">Sign In</a></li>
-                <li><a href="signup.php">Sign Up</a></li>
-                <li><a href="logout.php">Logout</a></li> <!-- Add a logout page -->
-            </ul>
-        </nav>
+        
     </header>
 
     <main>
