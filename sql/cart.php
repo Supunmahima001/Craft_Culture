@@ -34,7 +34,7 @@
         }
 
         .product button, .cart button {
-            background-color: #4CAF50;
+            background-color: #C3BBD8;
             color: white;
             border: none;
             padding: 8px 15px;
