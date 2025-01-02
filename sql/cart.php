@@ -43,7 +43,7 @@
         }
 
         .product button:hover, .cart button:hover {
-            background-color: #45a049;
+            background-color: #C3BBD8;
         }
 
         .cart {
