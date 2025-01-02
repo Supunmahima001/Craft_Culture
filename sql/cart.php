@@ -25,7 +25,7 @@
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            background-color: #fff;
+            background-color:rgb(255, 255, 255);
         }
 
         .product .details, .cart-item .details {
