@@ -42,7 +42,7 @@
 </head>
 <body>
     <h1>Add New Product</h1>
-    <form id="productForm">
+    <form id="productForm" method="post">
         <label for="sellerID">Seller ID:</label>
         <input type="number" id="sellerID" name="sellerID" required>
 
@@ -67,7 +67,7 @@
         <button type="submit">Add Product</button>
     </form>
 
-    <script>
+    <!-- <script>
         document.getElementById('productForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
@@ -86,6 +86,6 @@
                 alert('Error adding product.');
             }
         });
-    </script>
+    </script> -->
 </body>
 </html>
