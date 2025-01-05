@@ -66,6 +66,29 @@
 
         <button type="submit">Add Product</button>
     </form>
+    <?php
+    
+        if(isset($_POST['submit'])){
+            $name = $_POST['sellerID'];
+            $age = $_POST['categoryID'];
+            $age = $_POST['name'];
+            $age = $_POST['description'];
+            $age = $_POST['price'];
+            $age = $_POST['stock'];
+            $age = $_POST['imageURL'];
+            
+
+            echo "$sellerID"."<br>";
+            echo "$categoryID"."<br>";
+            echo "$name"."<br>";
+            echo "$description"."<br>";
+            echo "$price"."<br>";
+            echo "$stock"."<br>";
+            echo "$imageURL"."<br>";
+            
+        }
+
+    ?>
 
     <!-- <script>
         document.getElementById('productForm').addEventListener('submit', async (e) => {
