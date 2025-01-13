@@ -144,9 +144,7 @@
     <a href="#products"><i class="fa fa-box"></i> Products</a>
     <a href="#orders"><i class="fa fa-shopping-cart"></i> Orders</a>
     <a href="#users"><i class="fa fa-users"></i> Users</a>
-    <a href="#categories"><i class="fa fa-list"></i> Categories</a>
-    <a href="#analytics"><i class="fa fa-chart-line"></i> Analytics</a>
-    <a href="#settings"><i class="fa fa-cogs"></i> Settings</a>
+    
 </div>
 
 <div class="content">
