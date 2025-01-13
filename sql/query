@@ -46,7 +46,9 @@ CREATE TABLE OrderDetails (
 
 CREATE TABLE Payments (
     PaymentID INT AUTO_INCREMENT PRIMARY KEY,
-    OrderID INT NOT NULL,
+    FullName NOT NULL,
+    Email NOT NULL,
+    Address NOT NULL,
     PaymentMethod VARCHAR(50) NOT NULL,
     PaymentStatus ENUM('Completed', 'Failed', 'Pending') DEFAULT 'Pending',
     AmountPaid DECIMAL(10, 2) NOT NULL,

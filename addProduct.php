@@ -43,11 +43,7 @@
 <body>
     <h1>Add New Product</h1>
     <form id="productForm" method="post">
-        <label for="sellerID">Seller ID:</label>
-        <input type="number" id="sellerID" name="sellerID" required>
-
-        <label for="categoryID">Category ID:</label>
-        <input type="number" id="categoryID" name="categoryID">
+        
 
         <label for="name">Product Name:</label>
         <input type="text" id="name" name="name" required>
@@ -69,8 +65,7 @@
     <?php
     
         if(isset($_POST['submit'])){
-            $name = $_POST['sellerID'];
-            $age = $_POST['categoryID'];
+            
             $age = $_POST['name'];
             $age = $_POST['description'];
             $age = $_POST['price'];
@@ -78,8 +73,7 @@
             $age = $_POST['imageURL'];
             
 
-            echo "$sellerID"."<br>";
-            echo "$categoryID"."<br>";
+           
             echo "$name"."<br>";
             echo "$description"."<br>";
             echo "$price"."<br>";
