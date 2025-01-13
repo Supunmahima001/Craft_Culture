@@ -57,33 +57,36 @@
         <label for="stock">Stock:</label>
         <input type="number" id="stock" name="stock" required>
 
-        <label for="imageURL">Image URL:</label>
-        <input type="url" id="imageURL" name="imageURL">
+        
+    <label for="photo">Upload Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+
+    <button type="submit">Upload Photo</button>
+
 
         <button type="submit">Add Product</button>
     </form>
     <?php
-    
-        if(isset($_POST['submit'])){
-            
-            $age = $_POST['name'];
-            $age = $_POST['description'];
-            $age = $_POST['price'];
-            $age = $_POST['stock'];
-            $age = $_POST['imageURL'];
-            
-
-           
-            echo "$name"."<br>";
-            echo "$description"."<br>";
-            echo "$price"."<br>";
-            echo "$stock"."<br>";
-            echo "$imageURL"."<br>";
-            
-        }
-
-    ?>
-
+            if ($result->num_rows > 0) {
+                // Output data for each row
+                while ($row = $result->fetch_assoc()) {
+                    echo '<div class="card">';
+                    echo '<img src="' . htmlspecialchars($row["image_path"]) . '" alt="Item Image">';
+                    echo '<div class="card-content">';
+                    echo '<h3>' . htmlspecialchars($row["name"]) . '</h3>';
+                    echo '<p><strong>Category:</strong> ' . htmlspecialchars($row["category"]) . '</p>';
+                   
+                   
+                    
+                    echo '<p class="price"><strong>Price:</strong> $' . htmlspecialchars($row["price"]) . '</p>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            } else {
+                echo "<p>No items found.</p>";
+            }
+           // $conn->close();
+            ?>
      <script>
         document.getElementById('productForm').addEventListener('submit', async (e) => {
             e.preventDefault();
