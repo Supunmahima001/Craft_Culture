@@ -158,7 +158,7 @@
     <div id="products" class="card">
         <h2>Products</h2>
         <div class="actions">
-        <a href="addProduct.php" class="custom-button">Add Product</a>
+        <a href="../addProduct.php" class="custom-button">Add Product</a>
 
         <a href="#" class="custom-button">Manage Itemss</a>
 
