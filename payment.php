@@ -239,6 +239,7 @@
 
 .col .inputBox img {
     height: 20px;
+    width:30px;
     margin-top: 5px;
     filter: drop-shadow(0 0 1px #000);
 }
