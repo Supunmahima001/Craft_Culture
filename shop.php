@@ -88,7 +88,7 @@
           for any home.
         </p>
         <p class="price">$30.00</p>
-       <button> <a href="cart.php" class="custom-button">Add to cart</a></button>
+       <button> Add to cart</button>
       </div>
 
      
@@ -99,8 +99,7 @@
         <br />
         <br />
         <p class="price">$15.00</p>
-       <button> <a href="cart.php" class="custom-button">Add to cart</a></button>
-        
+        <button> Add to cart</button>
       </div>
 
       
@@ -110,7 +109,7 @@
         <p>Perfect for every party and funcions.handmade Coconat wine glass</p>
         <br />
         <p class="price">$22.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
+        <button> Add to cart</button>
       </div>
 
       
@@ -121,7 +120,7 @@
         <br />
         <br />
         <p class="price">$40.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
+        <button> Add to cart</button>
       </div>
 
       <div class="product-card">
@@ -129,7 +128,7 @@
         <h3>Handmade Wooden Spoons</h3>
         <p>Beautiful, handcrafted wooden spoons. Perfect for any home.</p>
         <p class="price">$30.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
+        <button> Add to cart</button>
       </div>
 
       
@@ -139,7 +138,7 @@
         <p>Hand made flowerpot.perfect for ewery home decerations</p>
         <br />
         <p class="price">$15.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
+        <button> Add to cart</button>
 
       
       <div class="product-card">
@@ -148,7 +147,7 @@
         <p>Perfect for organizing your home with a Hand made wooden clock.</p>
         <br />
         <p class="price">$22.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
+        <button> Add to cart</button>
       </div>
 
       <div class="product-card">
@@ -157,8 +156,7 @@
         <p>Sri Lankan Handmade Pottery.usefull for hottels and homess</p>
         <br />
         <p class="price">$40.00</p>
-        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
-      </div>
+        <button> Add to cart</button>
     </div>
   
 
