@@ -90,7 +90,7 @@
 
     ?>
 
-    <!-- <script>
+     <script>
         document.getElementById('productForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
@@ -109,6 +109,6 @@
                 alert('Error adding product.');
             }
         });
-    </script> -->
+    </script> 
 </body>
 </html>
