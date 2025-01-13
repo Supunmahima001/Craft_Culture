@@ -1,91 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Sheet</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Online Payment-Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="payment-container">
-        <h2>Payment Details</h2>
-        <form action="/submit-payment" method="POST">
-            <div class="form-group">
-                <label for="cardholder-name">Cardholder Name</label>
-                <input type="text" id="cardholder-name" name="cardholder-name" required>
+    <div class="container">
+
+        <form action="#">
+
+            <div class="row">
+
+                <div class="col">
+                    <h3 class="title">
+                        Billing Address
+                    </h3>
+
+                    <div class="inputBox">
+                        <label for="name">
+                              Full Name:
+                          </label>
+                        <input type="text" id="name" 
+                               placeholder="Enter your full name" 
+                               required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="email">
+                              Email:
+                          </label>
+                        <input type="text" id="email" 
+                               placeholder="Enter email address" 
+                               required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="address">
+                              Address:
+                          </label>
+                        <input type="text" id="address" 
+                               placeholder="Enter address" 
+                               required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="city">
+                              City:
+                          </label>
+                        <input type="text" id="city" 
+                               placeholder="Enter city" 
+                               required>
+                    </div>
+
+                    <div class="flex">
+
+                        <div class="inputBox">
+                            <label for="state">
+                                  State:
+                              </label>
+                            <input type="text" id="state" 
+                                   placeholder="Enter state" 
+                                   required>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="zip">
+                                  Zip Code:
+                              </label>
+                            <input type="number" id="zip" 
+                                   placeholder="123 456" 
+                                   required>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+
+                    <div class="inputBox">
+                        <label for="name">
+                              Card Accepted:
+                          </label>
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240715140014/Online-Payment-Project.webp" 
+                             alt="credit/debit card image">
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="cardName">
+                              Name On Card:
+                          </label>
+                        <input type="text" id="cardName" 
+                               placeholder="Enter card name" 
+                               required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="cardNum">
+                              Credit Card Number:
+                          </label>
+                        <input type="text" id="cardNum" 
+                               placeholder="1111-2222-3333-4444" 
+                               maxlength="19" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="">Exp Month:</label>
+                        <select name="" id="">
+                            <option value="">Choose month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <label for="">Exp Year:</label>
+                            <select name="" id="">
+                                <option value="">Choose Year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="cvv">CVV</label>
+                            <input type="number" id="cvv" 
+                                   placeholder="1234" required>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="form-group">
-                <label for="card-number">Card Number</label>
-                <input type="text" id="card-number" name="card-number" required>
-            </div>
-            <div class="form-group">
-                <label for="expiry-date">Expiry Date</label>
-                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
-            </div>
-            <div class="form-group">
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" required>
-            </div>
-            <button type="submit">Submit Payment</button>
+
+            <input type="submit" value="Proceed to Checkout" 
+                   class="submit_btn">
         </form>
+
     </div>
-    <style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.payment-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #218838;
-}
-</style>
-
+    <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
