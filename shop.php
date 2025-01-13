@@ -88,7 +88,7 @@
           for any home.
         </p>
         <p class="price">$30.00</p>
-        <a href="cart.php" class="custom-button">Add to cart</a>
+       <button> <a href="cart.php" class="custom-button">Add to cart</a></button>
       </div>
 
      
@@ -99,7 +99,7 @@
         <br />
         <br />
         <p class="price">$15.00</p>
-        <a href="cart.php" class="custom-button">Add to cart</a>
+       <button> <a href="cart.php" class="custom-button">Add to cart</a></button>
         
       </div>
 
@@ -110,7 +110,7 @@
         <p>Perfect for every party and funcions.handmade Coconat wine glass</p>
         <br />
         <p class="price">$22.00</p>
-        <a href="cart.php" class="custom-button">Add to cart</a>
+        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
       </div>
 
       
@@ -121,7 +121,7 @@
         <br />
         <br />
         <p class="price">$40.00</p>
-        <a href="cart.php" class="custom-button">Add to cart</a>
+        <button><a href="cart.php" class="custom-button">Add to cart</a></button>
       </div>
 
       <div class="product-card">
