@@ -128,7 +128,7 @@
         <h3>Handmade Wooden Spoons</h3>
         <p>Beautiful, handcrafted wooden spoons. Perfect for any home.</p>
         <p class="price">$30.00</p>
-        <button> <a href="cart.php" class="custom-button">Add to cart</a></button>>
+        <button> <a href="cart.php" class="custom-button">Add to cart</a></button>
       </div>
 
       
