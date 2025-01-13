@@ -157,6 +157,7 @@
         <br />
         <p class="price">$40.00</p>
         <button> Add to cart</button>
+      </div>
     </div>
   
 
