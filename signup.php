@@ -133,6 +133,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       
       <div class="signin-link">
         Already have an account? <a href="signin.php">Sign in here</a>
+        <br>
+        <a href="index.php">Home</a>
+
       </div>
     </div>
   </body>
