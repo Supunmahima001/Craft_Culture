@@ -80,7 +80,7 @@
                     </div>
 
                 </div>
-                <div class="col">
+                
                     <h3 class="title">Payment</h3>
 
                     <div class="inputBox">
@@ -152,7 +152,6 @@
 
                 </div>
 
-            </div>
 
             <input type="submit" value="Proceed to Checkout" 
                    class="submit_btn">
@@ -239,7 +238,7 @@
 }
 
 .col .inputBox img {
-    height: 34px;
+    height: 20px;
     margin-top: 5px;
     filter: drop-shadow(0 0 1px #000);
 }
