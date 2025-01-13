@@ -181,23 +181,6 @@
         </div>
     </div>
 
-    <div id="categories" class="card">
-        <h2>Categories</h2>
-        <div class="actions">
-            <a href="#" class="custom-button">Add category</a>
-            <a href="#" class="custom-button">View all categories </a>
-        </div>
-    </div>
-
-    <div id="analytics" class="card">
-        <h2>Analytics</h2>
-        <p>Monitor website performance and user behavior.</p>
-    </div>
-
-    <div id="settings" class="card">
-        <h2>Settings</h2>
-        <p>Configure website preferences and settings.</p>
-    </div>
 </div>
 
 </body>
