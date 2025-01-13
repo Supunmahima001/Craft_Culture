@@ -88,7 +88,7 @@
           for any home.
         </p>
         <p class="price">$30.00</p>
-        <button>Add to Cart</button>
+        <a href="cart.php" class="custom-button">Add to cart</a>
       </div>
 
      
