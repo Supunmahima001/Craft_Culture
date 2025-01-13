@@ -1,5 +1,5 @@
 <?php
-// about.php
+
 ?>
 
 <!DOCTYPE html>
@@ -8,10 +8,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Craft Culture</title>
-    <link rel="stylesheet" href="../css/about.css"> <!-- Assuming you have a style.css for styling -->
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
@@ -20,11 +20,11 @@
             <li><a href="aboutus.php">About</a></li> 
             <li><a href="signin.php">Sign In</a></li>
             <li><a href="signup.php">Sign Up</a></li>
-            <!-- Link to About Us Page -->
+           
         </ul>
     </nav>
 
-    <!-- About Us Section -->
+    
     <section class="about-us">
         <div class="container">
             <h1>About Craft Culture</h1>
@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer>
         <p>&copy; 2024 Craft Culture. All rights reserved.</p>
     </footer>
