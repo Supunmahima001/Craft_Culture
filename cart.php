@@ -97,7 +97,7 @@
         <div class="cart-summary">
             Total: $<span id="cart-total">0.00</span>
         </div>
-        <button id="checkout">Checkout</button>
+        <button id="checkout"><a href = payment.php>Checkout</a></button>
     </div>
 
     <script>
