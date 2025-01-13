@@ -27,7 +27,7 @@
         }
 
         .sidebar {
-            width: 250px;
+            width: 150px;
             background-color: #34495e;
             color: #fff;
             position: fixed;
