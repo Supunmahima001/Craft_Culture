@@ -108,25 +108,25 @@
         .custom-button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #4CAF50; /* Green background */
-      color: white;             /* White text */
-      text-decoration: none;    /* Remove underline */
-      font-size: 16px;          /* Increase font size */
-      border: none;             /* No border */
-      border-radius: 8px;       /* Rounded corners */
-      transition: background-color 0.3s ease; /* Smooth hover effect */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      background-color: #4CAF50; 
+      color: white;             
+      text-decoration: none;    
+      font-size: 16px;          
+      border: none;             
+      border-radius: 8px;       
+      transition: background-color 0.3s ease; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
 
   .custom-button:hover {
-      background-color: #45a049; /* Slightly darker green on hover */
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow */
+      background-color: #45a049; 
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
   }
 
   .custom-button:active {
-      background-color: #3e8e41; /* Even darker green when clicked */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
-      transform: translateY(2px); /* Button moves down slightly */
+      background-color: #3e8e41; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      transform: translateY(2px); 
   }
     </style>
 </head>
